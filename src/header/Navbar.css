@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    padding: 1em;
+    font-size: 140%;
+    position: absolute;
+    left: 0;
+    top: 100vh;
+    text-align: left;
+}
+header h1{
+    font-weight: 600;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ nav {
+    /* width: 500px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    margin-right: auto;
+    display:inline-block; */
+float: right;
+}
+
+nav a{    
+text-decoration: none;
+display: inline-block;
+padding: 0 0.5em;
+color: #000;
+transition:all 0.2 linear ;
+opacity: 0.7;
+}
+nav a:hover{
+opacity: 1;
+}

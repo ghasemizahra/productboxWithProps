@@ -1,0 +1,14 @@
+tr,th,td{
+    border: 2px solid rebeccapurple;
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+  }
+  .mahsol h1{
+    text-align: center;
+  }

@@ -1,0 +1,17 @@
+/* .container{
+    display: flex;
+    justify-content: space-evenly;
+
+} */
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+}
