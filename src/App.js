@@ -40,6 +40,7 @@ function App(){
   )
 }
 export default App
+//<Modal header={Allmodal[0].header}/>
 
 // <PProduct image={<img src="images/a52.PNG" alt="phone" />}  price={30000000} count={12} model="somsungA52" caption="Lorem ipsum dolor sit,"/>
 // <PProduct image={<img src="images/13promax.PNG" alt="phone" />} price={1000000000} count={5} model="iphon13promax" caption="Lorem ipsum d" />
