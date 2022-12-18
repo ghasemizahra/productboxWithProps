@@ -1,49 +1,24 @@
 import './App.css'
-import PProduct from './PProduct/PProduct'
-// import Header from './header/Header'
-// import Article from './Article/Article'
-// import Product from './Prodaoct/Product'
-import User from './users/User'
-function App(){
-  const allProducts =[
-    {id:'1',price:'295',count:'12',model:'somsungA52',caption:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciuntperspiciatis voluptas quod? Obcaecati deserunt officiis ratione asperioresnulla minus. Quam error eligendi cupiditate necessitatibus nobis iure officiis aspernatur quae?'},
-    {id:'2',image:'images/13promax.PNG',price:'380',count:'1',model:'iphon13promax',caption:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciuntperspiciatis voluptas quod? Obcaecati deserunt officiis ratione asperioresnulla minus. Quam error eligendi cupiditate necessitatibus nobis iure officiis aspernatur quae?'},
-    {id:'3',image:'images/Xiaomi13pro.PNG',price:'200',count:'10',model:'Xiaomi13pro',caption:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciuntperspiciatis voluptas quod? Obcaecati deserunt officiis ratione asperioresnulla minus. Quam error eligendi cupiditate necessitatibus nobis iure officiis aspernatur quae?'},
-    {id:'4',image:'images/a52.PNG',price:'295',count:'15',model:'somsungA52',caption:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciuntperspiciatis voluptas quod? Obcaecati deserunt officiis ratione asperioresnulla minus. Quam error eligendi cupiditate necessitatibus nobis iure officiis aspernatur quae?'},
-    {id:'5',image:'images/13promax.PNG',price:'380',count:'16',model:'iphon13promax',caption:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciuntperspiciatis voluptas quod? Obcaecati deserunt officiis ratione asperioresnulla minus. Quam error eligendi cupiditate necessitatibus nobis iure officiis aspernatur quae?'},
-    {id:'6',price:'200',count:'17',model:'Xiaomi13pro',caption:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nesciuntperspiciatis voluptas quod? Obcaecati deserunt officiis ratione asperioresnulla minus. Quam error eligendi cupiditate necessitatibus nobis iure officiis aspernatur quae?'},
-  ]
+import Modal from './modal/Modal'
+function App()
+{
   return(
-    <div>
-                      <h1>phones</h1>
+  <div className="container">
+<Modal>
 
-    <div className="container">
 
-<PProduct  {...allProducts[0]}>
-<button>off (40%)</button>
+<h1>Delete Account</h1>
+      <p>عملیات با موققیت انجام شد😊</p>
 
-</PProduct>
-
-<PProduct  {...allProducts[1]}>
-  <button>off (10%)</button>
-</PProduct>
-     <PProduct {...allProducts[2]}>
-<h2>off (25%)</h2>
-     </PProduct>
-     <PProduct {...allProducts[3]}/>
-<PProduct  {...allProducts[4]}/>
-     <PProduct  {...allProducts[5]}/>
-
-</div>
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel😑</button>
+        <button type="button" class="Yesbtn">Yes✔</button>
+      </div>
+    
+        </Modal>
+  
 </div>
 
   )
 }
 export default App
-
-// <PProduct image={<img src="images/a52.PNG" alt="phone" />}  price={30000000} count={12} model="somsungA52" caption="Lorem ipsum dolor sit,"/>
-// <PProduct image={<img src="images/13promax.PNG" alt="phone" />} price={1000000000} count={5} model="iphon13promax" caption="Lorem ipsum d" />
-//      <PProduct image={<img src="images/Xiaomi13pro.PNG" alt="phone" />} price={250000000} count={31} model="Xiaomi13pro" caption="Lorem ipsum " />
-//      <PProduct image={<img src="images/a52.PNG" alt="phone" />} price={300000000} count={12} model="somsungA52" caption="Lorem ipsum dolo" />
-// <PProduct image={<img src="images/13promax.PNG" alt="phone" />} price={1000000000} count={5} model="iphon13promax" caption="Lorem ipsum dol" />
-//      <PProduct image={<img src="images/Xiaomi13pro.PNG" alt="phone" />} price={250000000} count={31} model="Xiaomi13pro" caption="Lorem ip" />
